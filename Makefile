@@ -1,7 +1,10 @@
 server:
 	@node index.js
 
+production:
+	@DEBUG=ifttt node index.js
+
 build:
 	@echo "nothing to do..."
 
-.PHONY: server build
+.PHONY: production server build
