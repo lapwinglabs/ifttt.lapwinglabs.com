@@ -12,7 +12,7 @@ envvar.string('AUTH');
 var webhook = require('express-ifttt-webhook');
 var debug = require('debug')('ifttt');
 var app = module.exports = require('express')();
-var port = process.argv[2] || 9000;
+var port = process.env.PORT || 9000;
 var parse = require('./parse.js');
 var isArray = Array.isArray;
 
