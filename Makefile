@@ -4,4 +4,4 @@ server:
 build:
 	@echo "nothing to do..."
 
-.PHONY: build
+.PHONY: server build
