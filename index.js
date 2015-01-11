@@ -74,7 +74,7 @@ function forward(json, done) {
  */
 
 app.get('/', function(req, res) {
-  res.send('handy ifttt workhorse');
+  res.sendStatus(200);
 });
 
 /**
