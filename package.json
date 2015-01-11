@@ -2,7 +2,7 @@
   "name": "ifttt-hook",
   "version": "1.0.0",
   "private": "true",
-  "description": "out ifttt workhorse",
+  "description": "our ifttt workhorse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
