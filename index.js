@@ -9,9 +9,10 @@ envvar.string('AUTH');
  * Module Dependencies
  */
 
-var webhook = require('express-ifttt-webhook');
 var debug = require('debug')('ifttt');
+
 var app = module.exports = require('express')();
+var webhook = require('express-ifttt-webhook');
 var port = process.env.PORT || 9000;
 var parse = require('./parse.js');
 var isArray = Array.isArray;
